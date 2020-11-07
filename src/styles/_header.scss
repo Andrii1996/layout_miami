@@ -19,6 +19,8 @@
   &__top {
     display: flex;
     justify-content: space-around;
+    max-width: 1100px;
+    margin: 0 auto;
     top: 35px;
     left: calc(50% - #{$header-width / 2});
   }
